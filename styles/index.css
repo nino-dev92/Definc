@@ -1,0 +1,166 @@
+.def-text{
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 4rem;
+}
+.hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 26, 255, 0.219);
+    background-blend-mode: overlay;
+    max-width: 100%;
+    min-height: 35rem;
+    animation-name: backgroundimage;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-delay: 0s;
+}
+@keyframes backgroundimage{
+    0% {
+        background-image: url(../image/music-notes-round-scales-frame.jpg);
+    }
+    40% {
+        background-image: url(../image/woman-portrait-isolated.png);
+    }
+    70% {
+        background-image: url(../image/man-wearing-leather-jacket-listening-music.jpg);
+    }
+     100% {
+        background-image: url(../image/music-notes-round-scales-frame.jpg);
+    }
+}
+
+.introtext{
+    padding-top: 4rem;
+    font-weight: 500;
+}
+.button{
+    font-family: inherit;
+}
+.button-container{
+   margin-left: 43%;
+   margin-top: 3rem;
+}
+.herobutton{
+    border: none;
+    height: 3.5rem;
+    width: 9rem;
+    color: crimson;
+    font-family: "Permanent Marker", cursive;
+    border: 1px solid crimson;
+    border-radius: 0.5rem;
+    transition: .2s ease;
+    cursor: pointer;
+    
+}
+.herobutton:hover{
+    color: white;
+    background-color: crimson;
+       
+}
+.details-container{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.detailsdiv{
+    display: flex;
+    flex-direction:row;
+    padding: 2rem;
+    margin:1rem;
+    align-items: center;
+   }
+.details{
+    padding: 0; 
+    margin: 0;
+    }
+
+.details-paragraph {
+    font-size: 2rem;
+    color: crimson;
+    padding-top: 4rem;
+}
+
+.detailsdiv p {
+   font-size: 2rem;
+}
+
+.whatsapp-icon{
+position: fixed;
+right: 5px;
+bottom: 10px;
+cursor: pointer;
+display:flex;
+align-items: center;
+z-index: 2;
+}
+.whatsapp-text{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 15px;
+}
+.js-details-one{
+    opacity:1;
+    transition: .5s ease;
+    transform: translateX(-1500px)
+}
+.js-details-two{
+    opacity:0;
+    transition: 1.5s ease;
+}
+@media (max-width: 500px){
+    .detailsdiv{
+    display: flex;
+    flex-direction: column;
+    }
+     .second-det-div{
+    display: flex;
+    flex-direction: column-reverse;
+       
+}   
+.footer{
+    height: 14rem;
+}
+.detailsdiv p {
+    font-size: 1.2rem;
+   }  
+.herobutton{
+ transform: translateX(-55px);
+   
+}
+body{
+    background-size: cover;
+    background-position: center;
+}
+}
+@media (max-width: 900px){
+    .button-container{
+   padding-bottom: 5rem;
+   
+}
+}
+@media (max-width: 1000px){
+     .introtext{
+     font-size: 2rem;
+    }
+        .detailsdiv{
+    display: flex;
+    flex-direction: column;
+    }
+     .second-det-div{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}  
+   .herobutton{
+    margin-top: 4rem;
+    
+}
+}
