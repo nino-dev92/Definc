@@ -14,7 +14,7 @@ if (window.pageYOffset < 390){
 if(window.pageYOffset < 630){
 detailsTwo.style = "opacity:0"
 }
-if(window.pageYOffset > 645){
+if(window.pageYOffset > 646){
 detailsTwo.style = "opacity:1"
 }
 
