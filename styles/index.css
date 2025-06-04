@@ -89,7 +89,7 @@
 .whatsapp-icon{
 position: fixed;
 right: 5px;
-bottom: 10px;
+bottom: 90px;
 cursor: pointer;
 display:flex;
 align-items: center;
@@ -104,11 +104,12 @@ z-index: 2;
 }
 .js-details-one, .js-details-three{
     opacity:1;
-    transition: .7s ease;
+    transition: 1.5s ease;
     transform: translateX(-1500px)
 }
 .js-details-two{
-    opacity:0;
+    opacity:1;
+    transform: translateX(-1500);
     transition: 1.5s ease;
 }
 @media (max-width: 500px){
