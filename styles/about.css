@@ -14,7 +14,7 @@
 }
 body{
     padding-top: 100px;
-    background-image: url(/DEF/image/flower-piano-background.jpg);
+    background-image: url('/DEF/image/flower-piano-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(212, 211, 211, 0.616);

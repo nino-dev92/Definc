@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(/DEF/image/woman-guitar.jpg);
+    background-image: url('/DEF/image/woman-guitar.jpg');
     background-color: rgba(255, 255, 255, 0.568);
     background-blend-mode:overlay;
     background-repeat: no-repeat;

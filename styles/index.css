@@ -20,16 +20,16 @@
 }
 @keyframes backgroundimage{
     0% {
-        background-image: url(../image/music-notes-round-scales-frame.jpg);
+        background-image: url('../image/music-notes-round-scales-frame.jpg');
     }
     40% {
-        background-image: url(../image/woman-portrait-isolated.png);
+        background-image: url('../image/woman-portrait-isolated.png');
     }
     70% {
-        background-image: url(../image/man-wearing-leather-jacket-listening-music.jpg);
+        background-image: url('../image/man-wearing-leather-jacket-listening-music.jpg');
     }
      100% {
-        background-image: url(../image/music-notes-round-scales-frame.jpg);
+        background-image: url('../image/music-notes-round-scales-frame.jpg');
     }
 }
 
