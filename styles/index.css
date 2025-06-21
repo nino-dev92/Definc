@@ -109,11 +109,11 @@ display: initial;
 .js-details-one, .js-details-three{
     opacity:1;
     transition: 1.5s ease;
-    transform: translateX(-1500px)
+    transform: translateX(-50px)
 }
 .js-details-two{
     opacity:1;
-    transform: translateX(-1500);
+    transform: translateX(-50px);
     transition: 1.5s ease;
 }
 @media (max-width: 500px){
