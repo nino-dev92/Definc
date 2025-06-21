@@ -121,13 +121,23 @@ display: initial;
     display: flex;
     flex-direction: column;
     }
-     .second-det-div{
+     .js-details-two{
     display: flex;
     flex-direction: column-reverse;
+    margin-right: 4.5rem;
        
 }   
+.js-details-three{
+    margin-left: 2rem;
+}
+.js-details-one{
+    margin-left: 3.5rem;
+}
+.details-container {
+    overflow-x: hidden;
+}
 .footer{
-    height: 14rem;
+    height: 14.5rem;
 }
 .detailsdiv p {
     font-size: 1.2rem;
@@ -146,6 +156,17 @@ body{
    padding-bottom: 5rem;
    
 }
+.details-container {
+    overflow-x: hidden;
+    display: flex;
+    text-align: center;
+}
+    .second-det-div{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 4rem;
+    
+}  
 }
 @media (max-width: 1000px){
      .introtext{
@@ -158,6 +179,7 @@ body{
      .second-det-div{
     display: flex;
     flex-direction: column-reverse;
+   transform: translateX(-50px);
     
 }  
    .herobutton{
