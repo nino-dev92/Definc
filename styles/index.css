@@ -66,14 +66,15 @@
     margin-bottom: 3rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 .detailsdiv{
     display: flex;
     flex-direction:row;
     padding: 2rem;
-    margin:1rem;
+    /* margin:1rem; */
     align-items: center;
+    justify-items: center;
    }
 .details{
     padding: 0; 
@@ -106,27 +107,23 @@ display: initial;
     font-size: 15px;
     display: none;
 }
-.js-details-one, .js-details-three{
+.js-details-one, .js-details-three, .js-details-two{
     opacity:1;
     transition: 1.5s ease;
-    transform: translateX(-50px)
-}
-.js-details-two{
-    opacity:1;
     transform: translateX(-50px);
-    transition: 1.5s ease;
+    overflow-x: hidden;
 }
 @media (max-width: 500px){
     .detailsdiv{
     display: flex;
     flex-direction: column;
     }
-     .js-details-two{
+     /* .js-details-two{
     display: flex;
     flex-direction: column-reverse;
     margin-right: 4.5rem;
        
-}   
+}    */
 .js-details-three{
     margin-left: 2rem;
 }
@@ -151,19 +148,18 @@ body{
     background-position: center;
 }
 }
-@media (max-width: 900px){
+@media (max-width: 700px){
     .button-container{
    padding-bottom: 5rem;
    
 }
 .details-container {
     overflow-x: hidden;
-    display: flex;
     text-align: center;
 }
-    .second-det-div{
+    .js-details-two{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
     margin-right: 4rem;
     
 }  
@@ -176,12 +172,10 @@ body{
     display: flex;
     flex-direction: column;
     }
-     .second-det-div{
-    display: flex;
-    flex-direction: column-reverse;
-   transform: translateX(-50px);
+     /* .js-details-two{
+     transform: translateX(50px);
     
-}  
+}   */
    .herobutton{
     margin-top: 4rem;
     

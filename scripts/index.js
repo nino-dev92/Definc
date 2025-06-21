@@ -18,7 +18,7 @@ detailsTwo.style = "opacity:0"
 }
 else if(window.scrollY > 500){
 detailsTwo.style = "opacity:1"
-detailsTwo.style = "transform: translateX(50px)"
+detailsTwo.style = "transform: translateX(30px)"
 }
 if (window.scrollY > 1650){
     detailsThree.style = "opacity:1"
