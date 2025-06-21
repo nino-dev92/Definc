@@ -6,7 +6,7 @@ let detailsTwo = document.querySelector('.js-details-two')
 let detailsThree = document.querySelector('.js-details-three')
 
 window.addEventListener("scroll", () =>{
-if (window.pageYOffset > 390){
+if (window.scrollY > 390){
     detailsOne.style = "opacity:1"
     detailsOne.style = "transform: translateX(0px)"
    }

@@ -89,11 +89,14 @@
 .whatsapp-icon{
 position: fixed;
 right: 5px;
-bottom: 90px;
+bottom: 30px;
 cursor: pointer;
 display:flex;
 align-items: center;
 z-index: 2;
+}
+.whatsapp-icon:hover .whatsapp-text{
+display: initial;
 }
 .whatsapp-text{
     background-color: white;
@@ -101,6 +104,7 @@ z-index: 2;
     border-radius: 5px;
     padding: 6px;
     font-size: 15px;
+    display: none;
 }
 .js-details-one, .js-details-three{
     opacity:1;
