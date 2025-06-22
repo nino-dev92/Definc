@@ -13,12 +13,12 @@ if (window.scrollY > 390){
 else if (window.scrollY < 390){
     detailsOne.style = "opacity:0"
 }
-if(window.scrollY < 1150){
+if(window.scrollY < 1000){
 detailsTwo.style = "opacity:0"
 }
-else if(window.scrollY > 500){
+else if(window.scrollY > 1000){
 detailsTwo.style = "opacity:1"
-detailsTwo.style = "transform: translateX(30px)"
+detailsTwo.style = "transform: translateX(0px)"
 }
 if (window.scrollY > 1650){
     detailsThree.style = "opacity:1"
