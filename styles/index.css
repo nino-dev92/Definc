@@ -114,9 +114,13 @@ display: initial;
     
 }
 @media (max-width: 600px){
-    .detailsdiv{
+    /* .detailsdiv{
     display: flex;
     flex-direction: column;
+    } */
+    .js-details-two{
+        display: flex;
+        flex-direction: column-reverse;
     }
     .herobutton{
         display:none;
