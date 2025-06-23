@@ -40,11 +40,9 @@ body {
     font-size: 2rem;
     margin-bottom: 4rem;
 }
-ul{
-    list-style-type: square;
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+.serviceslist P{
+ margin-bottom: 5rem;
+ margin-top: 4rem;
 }
 .whatsapp-icon{
 position: fixed;
