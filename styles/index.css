@@ -9,7 +9,7 @@
     background-color: rgba(0, 26, 255, 0.219);
     background-blend-mode: overlay;
     max-width: 100vw;
-    min-height: 30rem;
+    min-height: 33rem;
     animation-name: backgroundimage;
     animation-duration: 20s;
     animation-iteration-count: infinite;
